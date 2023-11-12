@@ -1,6 +1,6 @@
 {
-    "name": "mandaweb",
-    "description": "mandaweb",
+    "name": "portofolio",
+    "description": "My personal website built with Svelte and Sapper",
     "version": "1.0.0",
     "scripts": {
         "dev": "sapper dev",

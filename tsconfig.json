@@ -1,9 +1,10 @@
 {
-		"extends": "@tsconfig/svelte/tsconfig.json",
-		"compilerOptions": {
-			"types" : ["node"],
-			"lib": ["DOM", "ES2017", "WebWorker"]
-		},
-		"include": ["src/**/*", "src/node_modules/**/*"],
-		"exclude": ["node_modules/*", "__sapper__/*", "static/*"],
+	"extends": "@tsconfig/svelte/tsconfig.json",
+	"compilerOptions": {
+		"ignoreDeprecations": "5.0",
+		"types" : ["node"],
+		"lib": ["DOM", "ES2017", "WebWorker"]
+	},
+	"include": ["src/**/*", "src/node_modules/**/*"],
+	"exclude": ["node_modules/*", "__sapper__/*", "static/*"],
 }
