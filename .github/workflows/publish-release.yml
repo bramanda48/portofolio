@@ -40,18 +40,10 @@ jobs:
           tags: |
             ${{ env.IMAGES_NAME }}:latest
             ${{ env.IMAGES_NAME }}:${{ steps.package-version.outputs.current-version}}
-      - name: Wait for build to succeed
-        uses: fountainhead/action-wait-for-check@v1.1.0
-        id: wait-for-build
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          checkName: build
-          ref: ${{ github.event.pull_request.head.sha || github.sha }}
   
   release-code:
     runs-on: ubuntu-latest
     needs: build
-    if: steps.wait-for-build.outputs.conclusion == "success"
     steps:
       - uses: actions/checkout@v3
       - uses: google-github-actions/release-please-action@v3
