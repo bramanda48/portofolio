@@ -75,7 +75,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <a href="/resume.pdf" class="btn btn-outline-light float-lg-right mb-1">
+                    <a href="/document/resume.pdf" class="btn btn-outline-light float-lg-right mb-1">
                         <Fa icon={faCloudDownloadAlt} class="mr-2"/><span class="d-none d-md-inline">Download</span> Resume
                     </a>
                     <a href="/#contact" class="btn btn-outline-light float-lg-right mr-2 mb-1">
