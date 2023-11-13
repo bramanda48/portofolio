@@ -36,6 +36,10 @@ const contents = [
                 "image": "images/skill/netcore.svg",
             },
             {
+                "name": "NestJS",
+                "image": "images/skill/nestjs.svg",
+            },
+            {
                 "name": "Codeigniter",
                 "image": "images/skill/codeigniter.svg",
             },
@@ -85,6 +89,14 @@ const contents = [
                 "name": "Elasticsearch",
                 "image": "images/skill/elasticsearch.svg",
             },
+            {
+                "name": "Docker",
+                "image": "images/skill/docker.svg",
+            },
+            {
+                "name": "Kubernetes",
+                "image": "images/skill/kubernets.svg",
+            },
         ]
     },
     {
@@ -92,16 +104,8 @@ const contents = [
         "content_desc": "<p class='text-muted'>Some of the newest technologies and frameworks that I am learning now.</p>",
         "content_list": [
             {
-                "name": "NestJS",
-                "image": "images/skill/nestjs.svg",
-            },
-            {
                 "name": "Svelte",
                 "image": "images/skill/svelte.svg",
-            },
-            {
-                "name": "Docker",
-                "image": "images/skill/docker.svg",
             },
             {
                 "name": "Flutter",
