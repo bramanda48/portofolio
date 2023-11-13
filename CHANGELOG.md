@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.1.0](https://github.com/bramanda48/portofolio/compare/v1.0.0...v1.1.0) (2023-11-13)
+
+
+### Features
+
+* add latest resume ([02b2288](https://github.com/bramanda48/portofolio/commit/02b22880eb85a5bf94620529f87d1ebb7904967a))
+* change the order of career list ([427f531](https://github.com/bramanda48/portofolio/commit/427f5319cacf0549c5798a0d45b5943b8f2167a7))
+* update contact email ([be4e178](https://github.com/bramanda48/portofolio/commit/be4e1787a81b8005ee6fc2fa1d19017504b7d652))
+* update my latest project list ([07a3037](https://github.com/bramanda48/portofolio/commit/07a30373389584b361809d76354ffcdc90fd82bc))
+* update my latest skill ([13426dd](https://github.com/bramanda48/portofolio/commit/13426dd2a4cb00e145581aa161601e852cd5c6c5))
+
 ## 1.0.0 (2023-11-12)
 
 
