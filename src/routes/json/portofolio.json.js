@@ -4,6 +4,49 @@ const contents = [
         "content_desc": "Several projects, which I have completed.",
         "content_list": [
             {
+                "name": "Seakom - Your Vitamin Sea with Seakom <span class='d-block text-muted'>(Back-End API and Database)</span>",
+                "image": "images/projects/seakom.jpg",
+                "image_alt": "Seakom - Your Vitamin Sea with Seakom",
+                "image_background_color": "#61bcca",
+                "url": "https://seakom.io",
+                "description": "Seakom is a mobile application focused on nautical activities and related services.",
+                "techstack": [
+                    "Directus", "Moyasar", "Traduora", "Budibase", "Javascript"
+                ],
+            },
+            {
+                "name": "Shamirest - Shami Restaurant <span class='d-block text-muted'>(Back-End API)</span>",
+                "image": "images/projects/shamirest.jpg",
+                "image_alt": "Shamirest - Shami Restaurant",
+                "image_background_color": "#538736",
+                "url": "https://play.google.com/store/apps/details?id=com.shamirest.customer",
+                "description": "Shamirest is a mobile application to help customer order food in Shami Restaurant.",
+                "techstack": [
+                    "NestJS", "Kubernetes", "GRPC", "Redis", "PostgreSQL", "Paytab", "Cloudinary"
+                ],
+            },
+            {
+                "name": "Himmaty Apps <span class='d-block text-muted'>(Back-End API)</span>",
+                "image": "images/projects/himmaty.webp",
+                "image_alt": "Himmaty Apps",
+                "image_background_color": "#745d98",
+                "url": "https://play.google.com/store/apps/details?id=app.himmaty.parent",
+                "description": "<strong>Himmaty</strong> is a cloud-based platform that enables Special Education Institutions and childcare centers to manage core operations.",
+                "techstack": [
+                    "Microservice Orchestration", "NestJS", "Kubernetes", "GRPC", "Redis", "PostgreSQL"
+                ],
+            },
+            {
+                "name": "Zeroz - Cloud E-invoicing",
+                "image": "images/projects/zeroz.png",
+                "image_alt": "Zeroz - Cloud E-invoicing",
+                "url": "https://zeroz.io",
+                "description": "<strong>Zeroz</strong> is an E-invoicing software compliant with ZATCA, The Saudi Zakat, Tax and Customs Authority regulations.",
+                "techstack": [
+                    "PHP", "HTML/CSS", "JQuery", "Codeigniter", "MySQL"
+                ],
+            },
+            {
                 "name": "BTN Properti Phase #2 <span class='d-block text-muted'>(Back-End API and Database)</span>",
                 "image": "images/projects/btnproperti-2.png",
                 "image_alt": "BTN Properti Phase #2",

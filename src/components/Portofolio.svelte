@@ -33,6 +33,12 @@
         height: 220px;
         overflow: hidden;
     }
+    .portofolio-list .card .card-image img {
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+        z-index: 1;
+    }
     .portofolio-list .card:hover .card-image .overflow {
         content: '';
         background: rgb(0,0,0,0.3);
@@ -40,6 +46,7 @@
         height: 100%;
         position: absolute;
         left: 0;
+        z-index: 2;
     }
 
     .portofolio-list .card .overflow .techstack {
@@ -95,7 +102,7 @@
         {:else}
         <div class="col-md-6 col-xl-4 mb-3" in:fly="{{delay: (index * 100)}}">
             <div class="card bg-navy h-100">
-                <div class="card-image">
+                <div class="card-image" style="{value['image_background_color'] ? `background-color: ${value['image_background_color']};` : 'background-color: #fff;'}">
                     <div class="overflow">
                         {#if value['url']}
                         <div class="link">
