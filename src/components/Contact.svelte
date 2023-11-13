@@ -47,7 +47,7 @@
                     Tell me about your needs and let's start working together on the best solution for your business.
                 </div>
                 
-                <a href="mailto:bramanda48@gmail.com" class="btn btn-outline-light btn-lg mb-3">Say Hello</a>
+                <a href="mailto:bram@malang.dev" class="btn btn-outline-light btn-lg mb-3">Say Hello</a>
 
                 <div class="mb-3 copyright">
                     &copy; 2021 Bramanda Febri Suwandi.<br/> Made with <Fa icon={faCode}/> using <a href="https://www.svelte.dev/" target="_blank"><strong>Svelte</strong></a>, <a href="https://sapper.svelte.dev/" target="_blank"><strong>Sapper</strong></a> and <a href="https://getbootstrap.com" target="_blank"><strong>Bootstrap</strong></a>
