@@ -8,7 +8,8 @@
         content_desc: string, 
         content_list: any
     }[];
-    const career = response[0];
+    const career  = response[0];
+    const content = career.content_list.sort().reverse();
 </script>
 
 <style>
@@ -39,7 +40,7 @@
     </div>
     
     <div class="row row-eq-height career-list mb-2">
-        {#each career.content_list as value, index}
+        {#each content as value, index}
         <div class="col-md-6 col-xl-4 mb-3">
             <div class="card bg-navy h-100 rounded-lg" in:fade="{{delay: (index * 300)}}">
                 <div class="card-header">
