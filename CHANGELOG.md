@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/bramanda48/portofolio/compare/v1.1.0...v1.1.1) (2023-11-13)
+
+
+### Bug Fixes
+
+* resume link ([90c1518](https://github.com/bramanda48/portofolio/commit/90c151816d9131da4f579185755da54c77f720fe))
+
 ## [1.1.0](https://github.com/bramanda48/portofolio/compare/v1.0.0...v1.1.0) (2023-11-13)
 
 
