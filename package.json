@@ -1,7 +1,7 @@
 {
     "name": "portofolio",
     "description": "My personal website built with Svelte and Sapper",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "scripts": {
         "dev": "sapper dev",
         "build": "sapper build --legacy",
