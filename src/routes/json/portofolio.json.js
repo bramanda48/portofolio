@@ -9,7 +9,7 @@ const contents = [
                 "image_alt": "Seakom - Your Vitamin Sea with Seakom",
                 "image_background_color": "#61bcca",
                 "url": "https://seakom.io",
-                "description": "Seakom is a mobile application focused on nautical activities and related services.",
+                "description": "<strong>Seakom</strong> is a mobile application focused on nautical activities and related services.",
                 "techstack": [
                     "Directus", "Moyasar", "Traduora", "Budibase", "Javascript"
                 ],
@@ -20,7 +20,7 @@ const contents = [
                 "image_alt": "Shamirest - Shami Restaurant",
                 "image_background_color": "#538736",
                 "url": "https://play.google.com/store/apps/details?id=com.shamirest.customer",
-                "description": "Shamirest is a mobile application to help customer order food in Shami Restaurant.",
+                "description": "<strong>Shamirest</strong> is a mobile application to help customer order food in Shami Restaurant.",
                 "techstack": [
                     "NestJS", "Kubernetes", "GRPC", "Redis", "PostgreSQL", "Paytab", "Cloudinary"
                 ],
