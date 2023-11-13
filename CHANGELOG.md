@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/bramanda48/portofolio/compare/v1.1.1...v1.1.2) (2023-11-13)
+
+
+### Bug Fixes
+
+* service worker caching ([b7d6da1](https://github.com/bramanda48/portofolio/commit/b7d6da14bd55688bdc65cf1b38c5a5d306d9763b))
+
 ## [1.1.1](https://github.com/bramanda48/portofolio/compare/v1.1.0...v1.1.1) (2023-11-13)
 
 
